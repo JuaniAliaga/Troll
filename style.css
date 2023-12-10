@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 200px;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    outline: none;
+    display: block;
+    margin: 1em auto .2em;
+    cursor: pointer;
+    transition: .5s transform;
+}
+
+button:hover{
+    transform: scale(.95);
+}
+
+body{
+    height: 100vh;
+}
+
+video{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
